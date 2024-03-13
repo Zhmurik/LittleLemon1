@@ -18,10 +18,11 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 
-from littlelemon.restaurant import views
+from restaurant.views import BookingViewSet
 
-router = DefaultRouter
-router.register(r'tables', views.BookingViewSet)
+router = DefaultRouter()
+
+router.register(r'tables', BookingViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
