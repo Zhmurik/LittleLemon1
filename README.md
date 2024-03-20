@@ -24,7 +24,10 @@ Start Django project
 ```sh
 (env)$ python manage.py runserver
 ```
-And navigate to `http://127.0.0.1:8000/restaurant/`.
-navigate to menu api `http://127.0.0.1:8000/restaurant/menu/`.
-navigate to booking api `http://127.0.0.1:8000/restaurant/booking/`.
-navigate to auth api `http://127.0.0.1:8000/auth/`.
+And navigate to [restaurant API](http://127.0.0.1:8000/restaurant/).
+
+Navigate to [menu API](http://127.0.0.1:8000/restaurant/menu/).
+
+Navigate to [booking API](http://127.0.0.1:8000/restaurant/booking/).
+
+Navigate to [auth API](http://127.0.0.1:8000/auth/).
