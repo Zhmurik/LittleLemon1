@@ -24,4 +24,4 @@ class BookingViewSet(viewsets.ModelViewSet):
 
 
 def index(request):
-    return render(request, 'new.html')
+    return render(request, 'index.html')
