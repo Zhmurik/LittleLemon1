@@ -2,8 +2,8 @@
 
 The first thing to do is to clone the repository:
 
-```sh
-$ git@github.com:Zhmurik/LittleLemonAPI.git
+```shh
+$ git@github.com:Zhmurik/LittleLemon1.git
 $ cd littlelemon
 ```
 
